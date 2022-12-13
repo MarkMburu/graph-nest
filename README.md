@@ -41,4 +41,4 @@ When given a transition in the form of an array, I convert it into a string and 
 Then I check the values of that transition in the graph, and I select the last element in the values. Then I use the element to check the status graph for its neighbor, which will be the next status.
 
 for example : given a transition ["R","A","S"] i convert this to RAS and check for its value which is [4,5,2].
-Then I take the last element which is 2 in this case and use it to look for the next node in the status graph which will be  3.  
+Then I take the last element, which in this case is 2, and use it to find the next node in the status graph, which will be 3 which is the next status.  
