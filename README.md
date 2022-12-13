@@ -42,3 +42,5 @@ Then I check the values of that transition in the graph, and I select the last e
 
 for example : given a transition ["R","A","S"] i convert this to RAS and check for its value which is [4,5,2].
 Then I take the last element, which in this case is 2, and use it to find the next node in the status graph, which will be 3 which is the next status.  
+
+### Sorry for not having enough time for this project, but there are numerous improvements that can be made.
