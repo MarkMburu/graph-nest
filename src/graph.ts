@@ -1,3 +1,11 @@
+//adjacency list containing the statuses.This will help to find the next status
+export const status_graph = {
+  2: [3],
+  3: [4],
+  4: [5, 2],
+  5: [2, 1],
+  1: [2],
+};
 //an adjacency list containing transition and the statuses
 export const graph = {
   RAS: [4, 5, 2],
@@ -8,11 +16,10 @@ export const graph = {
   RPB: [3, 4, 5],
 };
 
-//adjacency list containing the statuses.This will help to find the next status
-export const status_graph = {
-  2: [3],
-  3: [4],
-  4: [5, 2],
-  5: [2, 1],
-  1: [2],
+export const graph_transition = {
+  2: ['RUS'],
+  3: ['RPS', 'RPB'],
+  4: ['RAS', 'SPS', 'RPS'],
+  5: ['SAS'],
+  1: ['SPS'],
 };
